@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var p2 = document.getElementById("p2");
 
   var counter = 0;
-  var newButton = '<button type="button" class="btn btn-success">NowyKliker</button>'
+  var newButton = '<button type="button" class="btn btn-success">NowyKliker</button> '
 
   function clicks(event) {
     counter += 1;
