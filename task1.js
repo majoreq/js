@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
   var p2 = document.getElementById("p2");
 
 
-  function clicks2(event){
+  function clicks(event){
     counter += 1;
     p1.innerHTML = "click " + counter;
   }
 
-  var clicks = $("#p2");
-  clicks.on('click','button', function(){
+  var newButtonClicks = $("#p2");
+  newButtonClicks.on('click','button', function(){
     counter += 1;
     p1.innerHTML = "click " + counter;
   });
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     p2.innerHTML += newButton;
   }
 
-  btn1.addEventListener("click" , clicks2);
+  btn1.addEventListener("click" , clicks);
   btn2.addEventListener("click" , add_buton);
 
 
