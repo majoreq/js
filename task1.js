@@ -25,5 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
   btn1.addEventListener("click" , clicks);
   btn2.addEventListener("click" , add_buton);
 
-
 })
